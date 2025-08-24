@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+h1 {
+  margin-top: 20px;
+  color: #00ffea;
+}
+
+.controls {
+  margin: 20px;
+}
+
+button,
+select {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+#bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  margin: 20px auto;
+  width: 80%;
+  border: 2px solid #444;
+  background: #222;
+}
+
+.bar {
+  margin: 2px;
+  background: #00ffea;
+  width: 20px;
+}
